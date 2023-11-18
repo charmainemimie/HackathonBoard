@@ -18,9 +18,10 @@ export default function Navigbar() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link as={Link} to="/" active>
-          Hackathons
+        <Navbar.Link as={Link} to="/">
+          Home
         </Navbar.Link>
+        <Navbar.Link as= {Link} to="/hackathons ">Hackathons</Navbar.Link>
         <Navbar.Link as= {Link} to="/organizers ">Organizers</Navbar.Link>
         <Navbar.Link as= {Link} to="/resources">Resources</Navbar.Link>
         <Navbar.Link as= {Link} to="/about">About</Navbar.Link>

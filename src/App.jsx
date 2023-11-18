@@ -4,6 +4,7 @@ import Contact from './Pages/Contact'
 import Resources from './Pages/Resources'
 import Hackathons from './Pages/Hackathons'
 import Organizers from './Pages/Organizers'
+import Home from './Pages/Home';
 import {BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import Layout from './Components/Layout';
 //import Navigbar from './Components/Navigbar'
@@ -15,7 +16,8 @@ function App() {
    <Router>
         <Routes>
         <Route path="/" element={<Layout/>}>
-        <Route index element = {<Hackathons/>}></Route>
+        <Route index element = {<Home/>}></Route>
+        <Route path="/hackathons" element={<Hackathons/>}/>
         <Route path="/organizers" element={<Organizers/>}/>
         <Route path="/resources" element={<Resources/>}/>
         <Route  path='/about' element= {<About/>}></Route>
