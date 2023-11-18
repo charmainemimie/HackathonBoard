@@ -22,9 +22,9 @@ export default function Navigbar() {
           Hackathons
         </Navbar.Link>
         <Navbar.Link as= {Link} to="/organizers ">Organizers</Navbar.Link>
-        <Navbar.Link as= {Link} to="resources">Resources</Navbar.Link>
-        <Navbar.Link as= {Link} to="about">About</Navbar.Link>
-        <Navbar.Link as= {Link} to="contact">Contact</Navbar.Link>
+        <Navbar.Link as= {Link} to="/resources">Resources</Navbar.Link>
+        <Navbar.Link as= {Link} to="/about">About</Navbar.Link>
+        <Navbar.Link as= {Link} to="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
